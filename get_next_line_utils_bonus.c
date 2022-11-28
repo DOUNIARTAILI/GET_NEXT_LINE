@@ -1,24 +1,24 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   get_next_line_utils.c                              :+:      :+:    :+:   */
+/*   get_next_line_utils_bonus.c                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: drtaili <drtaili@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/27 01:44:23 by drtaili           #+#    #+#             */
-/*   Updated: 2022/11/27 05:31:50 by drtaili          ###   ########.fr       */
+/*   Updated: 2022/11/28 17:47:35 by drtaili          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "get_next_line.h"
+#include "get_next_line_bonus.h"
 
 size_t	ft_strlen(char *s)
 {
 	size_t	len;
 
 	len = 0;
-    if (!s)
-        return (len);
+	if (!s)
+		return (len);
 	while (s[len] != '\0')
 		len++;
 	return (len);
@@ -85,7 +85,6 @@ char	*ft_strjoin(char *s1, char *s2)
 	free(s1);
 	return (s);
 }
-
 
 int	ft_find_next_line(char *stash)
 {

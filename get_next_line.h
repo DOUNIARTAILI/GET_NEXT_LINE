@@ -6,7 +6,7 @@
 /*   By: drtaili <drtaili@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/25 07:30:27 by drtaili           #+#    #+#             */
-/*   Updated: 2022/11/27 05:11:09 by drtaili          ###   ########.fr       */
+/*   Updated: 2022/11/28 19:14:18 by drtaili          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,17 +15,17 @@
 
 # include <string.h>
 # include <stdio.h>
-# include <stdlib.h>
 # include <fcntl.h>
+# include <stdlib.h>
 # include <unistd.h>
 
-#ifndef BUFFER_SIZE
-# define BUFFER_SIZE 10
-#endif
+# ifndef BUFFER_SIZE
+#  define BUFFER_SIZE 1
+# endif
 
-char    *get_next_line(int fd);
+char	*get_next_line(int fd);
 size_t	ft_strlen(char *s);
-int	ft_find_next_line(char *sta);
+int		ft_find_next_line(char *sta);
 char	*ft_strjoin(char *s1, char *s2);
 
 #endif
