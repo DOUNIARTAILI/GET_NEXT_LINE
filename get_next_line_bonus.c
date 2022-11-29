@@ -6,7 +6,7 @@
 /*   By: drtaili <drtaili@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/25 06:26:41 by drtaili           #+#    #+#             */
-/*   Updated: 2022/11/28 19:13:10 by drtaili          ###   ########.fr       */
+/*   Updated: 2022/11/29 17:23:23 by drtaili          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -114,28 +114,3 @@ char	*get_next_line(int fd)
 	sta[fd] = get_rest(sta[fd], ft_strlen(line));
 	return (line);
 }
-
-// int main()
-// {
-// 	int fd = open("test.txt", O_RDONLY);
-// 	int fd = open("test1.txt", O_RDONLY);
-// 	int fd = open("test2.txt", O_RDONLY);
-// 	int fd = open("test3.txt", O_RDONLY);
-// 	int fd = open("test4.txt", O_RDONLY);
-// 	int fd = open("test5.txt", O_RDONLY);
-//     // char *str[10240];
-//     // int i = 0;	
-//     // str = get_next_line(fd);
-//     // while (str != NULL)
-//     // {
-// 	//     printf("%s", str);
-//     //     str = get_next_line(fd);
-//     // }
-//     // while(i < 50)
-// 	// {    printf("%s", get_next_line(177));
-//     //     i++;
-//     // }
-// 	printf("%s", get_next_line(fd));
-//     close(fd);
-
-// }

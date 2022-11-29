@@ -6,16 +6,13 @@
 /*   By: drtaili <drtaili@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/25 07:30:27 by drtaili           #+#    #+#             */
-/*   Updated: 2022/11/28 19:14:18 by drtaili          ###   ########.fr       */
+/*   Updated: 2022/11/29 17:25:03 by drtaili          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #ifndef GET_NEXT_LINE_H
 # define GET_NEXT_LINE_H
 
-# include <string.h>
-# include <stdio.h>
-# include <fcntl.h>
 # include <stdlib.h>
 # include <unistd.h>
 

@@ -6,7 +6,7 @@
 /*   By: drtaili <drtaili@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/27 01:44:23 by drtaili           #+#    #+#             */
-/*   Updated: 2022/11/28 17:47:35 by drtaili          ###   ########.fr       */
+/*   Updated: 2022/11/29 12:37:39 by drtaili          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -86,14 +86,14 @@ char	*ft_strjoin(char *s1, char *s2)
 	return (s);
 }
 
-int	ft_find_next_line(char *stash)
+int	ft_find_next_line(char *sta)
 {
 	int	i;
 
 	i = 0;
-	while (stash[i])
+	while (sta[i])
 	{
-		if (stash[i] == '\n')
+		if (sta[i] == '\n')
 			return (1);
 		i++;
 	}
